@@ -4,7 +4,9 @@
     height: 10vw;
     border-radius: 10px;
     position: relative;
-    cursor: pointer;;
+    cursor: pointer;
+    margin: 1rem;
+    transition: all  400ms ease-in-out;
 }
 .mainTitle{
      font-family: 'Poppins';

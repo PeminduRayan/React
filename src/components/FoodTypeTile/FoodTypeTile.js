@@ -18,7 +18,7 @@ const FoodTypeTile = () => {
             className={classes.outer} 
             onMouseEnter = {mouseEnterHandler}
             onMouseLeave = {mouseLeaveHandler}
-            style= {{backgroundColor : ! mouseState ? "red" : "black"}}
+            style= {{backgroundColor : ! mouseState ? '#90e0ef' : "#48cae4"}}
         >
             <img className={classes.img} src= {breakfast_img}/>   
                 <div className={classes.divboth}>
