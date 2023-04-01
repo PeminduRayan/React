@@ -1,0 +1,29 @@
+.outer{
+    position: relative;
+    width: fit-content;
+}
+
+.image{
+    position: absolute;
+    width: 10%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 2%;
+}
+
+.input{
+    background-color: #2D2D2D;
+    font-size: 1rem;
+    border: none;
+    padding: 0.9rem 0.9rem 0.9rem 3rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: white;
+    border-radius: 8px;
+}
+
+.input::placeholder{
+    padding: 0.9rem 0.9rem 0.9rem 2rem;
+    color: #AEAEAE;
+}

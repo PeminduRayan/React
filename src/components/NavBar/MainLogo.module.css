@@ -1,7 +1,11 @@
 .outer{
     width: 6vw;
+    
 }
 
 .image{
     width: 100%;
+    margin: 1rem;
+    padding: 5%;
+    
 }
