@@ -23,7 +23,7 @@ const FoodTypeTile = (props) => {
             <img className={classes.img} src= {props.source}/>   
                 <div className={classes.divboth}>
                     <span className={classes.mainTitle}>{props.heading}</span>
-                    <span className={classes.subTitle}>13 items</span>
+                    <span className={classes.subTitle}>{props.items}</span>
                 </div>
         </div>
      );

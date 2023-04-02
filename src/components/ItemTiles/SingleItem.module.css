@@ -29,10 +29,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
-    color:white;
-    
-   
-
+    color:white; 
 }
 .mainTitle{
     margin-left:-0.5rem ;
@@ -46,21 +43,24 @@
 
 .imgOuter{
     margin-top: 0.4rem;
-    margin-left: 2.2rem;
+    margin-left: 2.3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 0.6rem;
+    margin-right: 0.5rem;
   
 }
 .add{
    width: 2.5vw;
    height: 2.5vw;
+   cursor: pointer;
+   
 }
 
 .reduce{
     width: 2.5vw;
     height: 2.5vw;
+    cursor:pointer;
 }
 
 .items{
