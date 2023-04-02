@@ -5,7 +5,7 @@ const MainLogo = () => {
     return ( 
         <div className={classes.outer}>
             <img className={classes.image} src={logo}/>
-
+            <h1 className={classes.h1}>Nacho's</h1>
         </div>
      );
 }

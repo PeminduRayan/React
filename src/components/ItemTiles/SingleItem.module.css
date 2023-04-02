@@ -1,0 +1,68 @@
+.outer{
+    margin-left: 21.2rem;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+}
+.spanOuter{
+    background-color: #212529;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 8px;
+    flex-direction: column;
+    border-left: 10px solid #64dfdf;
+    margin-bottom: 2rem;
+  
+}
+.time{
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #adb5bd;
+    margin-left: -4rem;
+    
+    
+}
+
+.titleHolder{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    color:white;
+    
+   
+
+}
+.mainTitle{
+    margin-left:-1.7rem ;
+    font-weight: 600;
+
+}
+.subTitle{
+    margin-left:-4.1rem ;
+    color: grey;
+}
+
+.imgOuter{
+    margin-top: 1.25rem;
+    margin-left: 3rem;
+    display: flex;
+        flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0.25rem;
+  
+}
+.add{
+    width: 3vw;
+}
+
+.reduce{
+    width: 3vw;
+}
+
+.items{
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 2vw;
+    color: white;
+
+}

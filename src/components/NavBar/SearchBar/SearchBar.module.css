@@ -1,6 +1,7 @@
 .outer{
     position: relative;
     width: fit-content;
+    left: 10%;
 }
 
 .image{
@@ -9,21 +10,21 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    left: 2%;
+    left: 5%;
 }
 
 .input{
     background-color: #2D2D2D;
     font-size: 1rem;
     border: none;
-    padding: 0.9rem 0.9rem 0.9rem 3rem;
+    padding: 0.9rem 1.5rem 0.9rem 4rem;
     font-weight: 600;
     font-family: 'Poppins';
     color: white;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .input::placeholder{
-    padding: 0.9rem 0.9rem 0.9rem 2rem;
+    padding: 0.9rem 0.9rem 0.9rem 0rem;
     color: #AEAEAE;
 }

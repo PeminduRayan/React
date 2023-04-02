@@ -1,6 +1,8 @@
 .outer{
-    width: 6vw;
-    
+    width: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .image{
@@ -8,4 +10,10 @@
     margin: 1rem;
     padding: 5%;
     
+}
+
+.h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: white;
 }
