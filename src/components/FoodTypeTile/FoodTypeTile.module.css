@@ -5,7 +5,8 @@
     border-radius: 10px;
     position: relative;
     cursor: pointer;
-    margin: 0.5rem;
+    margin-bottom: 1rem;
+    margin-right: 0rem;
     transition: all  400ms ease-in-out;
 }
 .mainTitle{

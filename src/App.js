@@ -6,9 +6,8 @@ import MainLogo from './components/NavBar/MainLogo';
 import SearchBar from './components/NavBar/SearchBar/SearchBar';
 import UpperNavBar from './components/NavBar/UpperNavBar';
 import OrderBar from './components/NavBar/OrderBar/RecentOrdersContainer';
-import SingleItem from './components/ItemTiles/SingleItem';
 
-
+import SingleItemContainer from './components/ItemTiles/SingleItemContainer';
 
 function App() {
   return (
@@ -16,10 +15,7 @@ function App() {
       <UpperNavBar/>
       <OrderBar/>
       <FoodTileContainer/>
-      <SingleItem/>
-      
-        
-        
+      <SingleItemContainer/>
     </div>
   );
 }

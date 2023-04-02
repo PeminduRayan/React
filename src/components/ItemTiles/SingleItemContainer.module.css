@@ -1,0 +1,12 @@
+.allOuter{
+    margin-left: 17.8rem;
+    padding-top: 2rem;
+    
+}
+
+.container{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
